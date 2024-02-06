@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2em;
+    margin-right: auto;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0.75em;
+}
+
+.nav li:hover {
+    background-color: white;
+    color: #1F2937;
+    cursor: pointer;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+#hero .container {
+    justify-content: space-between;
+}
+
+#hero .half1 {
+    width: 50%;
+}
+
+#hero .half2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 0;
+    width: 50%;
+}
+
+#hero .half2 img {
+    border-radius: 1rem;
+}
+
+#hero .button {
+    text-decoration: none;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    display: inline-block;
+}
+
+#hero .button:hover {
+    cursor: pointer;
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+#showcase {
+    display: flex;
+    justify-content: center;
+}
+
+#showcase .container {
+    display: block;
+}
+
+#showcase h2 {
+    text-align: center;
+    margin: 1em 0;
+}
+
+#showcase .recipes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+#showcase .recipes img {
+    border: 2px solid #3882F6;
+    border-radius: 1rem;
+}
+
+#showcase .recipes h3 {
+    text-align: center;
+}
+
+#quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+#quote .container {
+    width: 60%;
+    flex-direction: column;
+}
+
+#quote p {
+    font-size: 1.5rem;
+}
+
+#quote .quote {
+    margin-top: 1rem;
+}
+
+#quote .author {
+    align-self: flex-end;
+    margin-bottom: 1rem;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+#app .container {
+    width: 60%;
+}
+
+.app-container {
+    background-color: #3882F6;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    display: flex;
+    color: #F9FAF8;
+    gap: 1rem;
+    flex: 1;
+}
+
+.app-container .half2 {
+    display: flex;
+    margin-left: auto;
+}
+
+.app-container .button {
+    text-decoration: none;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: inline-block;
+    align-self: center;
+}
+
+.app-container .button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 0.5rem 0;
+}
